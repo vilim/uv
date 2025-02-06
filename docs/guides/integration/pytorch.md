@@ -336,12 +336,12 @@ dependencies = []
 
 [project.optional-dependencies]
 cpu = [
-  "torch>=2.6.0",
-  "torchvision>=0.21.0",
+  "torch==2.6.0+cpu",
+  "torchvision==0.21.0+cpu",
 ]
 cu124 = [
-  "torch>=2.6.0",
-  "torchvision>=0.21.0",
+  "torch==2.6.0",
+  "torchvision==0.21.0",
 ]
 
 [tool.uv]
